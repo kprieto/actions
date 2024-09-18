@@ -12,5 +12,5 @@ jobs:
 
       - name: ls
         run: |
-          chmod +x script.sh
+          chmod +x .github/workflows/script.sh
           ./script.sh
