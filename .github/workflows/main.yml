@@ -12,6 +12,8 @@ jobs:
 
       - name: ls
         uses: ./.github/actions/my-action
+        with:
+          message: "Karen"
       # - name: ls
       #   run: |
       #     chmod +x script.sh
