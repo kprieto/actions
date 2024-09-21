@@ -28,4 +28,4 @@ jobs:
         run: echo "Valor ${{vars.MY_VARIABLE_2}}"
 
       - name: Secret
-        run: echo "Secret ${{ secrets.MY_SECRET_1}}"
+        run: echo "Secret ${{ secrets.MY_SECRET}}"
